@@ -1,0 +1,75 @@
+body{
+    background-image: url(background\ image.jpg);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #adcafe;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    li a, .dropbtn {
+    display: inline-block;
+    color: rgb(59, 108, 168);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(190, 214, 243);
+    }
+    
+    li.dropdown {
+    display: inline-block;
+    }
+    
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6061bc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    
+    .dropdown-content a {
+    color: rgb(189, 199, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color:
+    #8777f0;}
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+    ul.text{
+        background-color: rgba(103, 156, 255, 0.409);
+        padding: 20px;
+        border-radius: 25px 25px 25px 25px;
+        color: #0f1d2b;
+        list-style-type: circle;
+        text-align: justify;
+    }
+
+    h2{
+        text-decoration: underline;
+        text-decoration-color: rgb(53, 0, 88);
+        text-decoration-style: dotted;
+        text-align: center;
+        color: #203c58;
+    }
+
+.active{
+    background-color: pink;
+}
